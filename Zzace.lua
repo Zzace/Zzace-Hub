@@ -134,18 +134,18 @@ local Window = Fluent:CreateWindow({
     MinimizeKey = Enum.KeyCode.End
 })
 local Tabs = {
-    Main = Window:AddTab({ Title = "chính", Icon = "" }),
-    Stats = Window:AddTab({ Title = "chỉ số", Icon = "" }),
-    Player = Window:AddTab({ Title = "người chơi", Icon = "" }),
-    Teleport = Window:AddTab({ Title = "tele đảo", Icon = "" }),
-    Fruit = Window:AddTab({ Title = "trái", Icon = "" }),
-    Raid = Window:AddTab({ Title = "tập kích", Icon = "" }),
-    Visual = Window:AddTab({ Title = "Visual", Icon = "" }),
-    St = Window:AddTab({ Title = "Status Sever", Icon = "" }),    
-    Race = Window:AddTab({ Title = "Race V4", Icon = "" }),
-    Shop = Window:AddTab({ Title = "cửa hàng", Icon = "" }),
-	Misc = Window:AddTab({ Title = "khác", Icon = "" }),
-    Setting = Window:AddTab({ Title = "cài đặt", Icon = "" }),
+    Main = Window:AddTab({ Title = "Zz_FramFram", Icon = "" }),
+    Stats = Window:AddTab({ Title = "Zz_StatsStats", Icon = "" }),
+    Player = Window:AddTab({ Title = "Zz_PlayerPlayer", Icon = "" }),
+    Teleport = Window:AddTab({ Title = "Zz_tele", Icon = "" }),
+    Fruit = Window:AddTab({ Title = "Zz_FruitsFruits", Icon = "" }),
+    Raid = Window:AddTab({ Title = "Zz_RaidRaid", Icon = "" }),
+    Visual = Window:AddTab({ Title = "Zz_Visual", Icon = "" }),
+    St = Window:AddTab({ Title = "Zz_Status Sever", Icon = "" }),    
+    Race = Window:AddTab({ Title = "Zz_Race V4", Icon = "" }),
+    Shop = Window:AddTab({ Title = "Zz_ShopShop", Icon = "" }),
+	Misc = Window:AddTab({ Title = "Zz_NotWedNotWed", Icon = "" }),
+    Setting = Window:AddTab({ Title = "SettingSetting", Icon = "" }),
 }
 local Options = Fluent.Options
 do
@@ -2680,7 +2680,7 @@ end)
     end)
 
     local ToggleLevel = Tabs.Main:AddToggle("ToggleLevel", {
-        Title = "Cày Cấp Độ",
+        Title = "Fram Lever",
         Description = "",
         Default = false })
     ToggleLevel:OnChanged(function(Value)
@@ -2741,7 +2741,7 @@ end)
 
 
     local ToggleMobAura = Tabs.Main:AddToggle("ToggleMobAura", {
-        Title = "Đánh Quái Ở Gần",
+        Title = "Kill Aura",
         Description = "",
         Default = false })
     ToggleMobAura:OnChanged(function(Value)
